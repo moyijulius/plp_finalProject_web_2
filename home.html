@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Based Symptom Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to the AI-Based Symptom Checker</h1>
+        <section id="symptom-checker">
+            <form id="symptom-form">
+                <label for="symptoms">Enter your symptoms(comma separeted)</label>
+                <input type="text" id="symptoms" name="symptoms" placeholder="e.g., headache, fever" required>
+                <button type="button" onclick="predictSymptoms()">Predict</button>
+            </form>
+            <p id="prediction-result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AI-Based Symptom Checker. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
