@@ -27,4 +27,4 @@ This is a web-based application designed to help users check their symptoms and 
 
 1. Clone the repository:
    ```bash
- git clone https://github.com/PLP-WebTechnologies/safaricom-hook-final-project-and-deployment-week-8-moyijulius.git
+ git clone https://github.com/moyijulius/plp_finalProject_web_2.git
